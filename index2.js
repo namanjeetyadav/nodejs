@@ -10,3 +10,8 @@ const fs = require("fs");
 // fs.mkdirSync("CRUD");
 
 fs.writeFileSync("crud/bio.txt", "Hello")
+
+fs.appendFileSync("crud/bio.txt", " my name is Naman Jeet Yadav")
+
+const data = readFileSync("crud/bio.txt");
+console.log(data)
