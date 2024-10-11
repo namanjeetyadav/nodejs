@@ -13,5 +13,7 @@ fs.writeFileSync("crud/bio.txt", "Hello")
 
 fs.appendFileSync("crud/bio.txt", " my name is Naman Jeet Yadav")
 
-const data = readFileSync("crud/bio.txt");
-console.log(data)
+// const data = readFileSync("crud/bio.txt");
+// console.log(data)
+
+fs.renameSync("crud/bio.txt", "mybio.txt");
