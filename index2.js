@@ -7,13 +7,19 @@
 // 6. Now delete both file and folder
 
 const fs = require("fs");
+// Create a folder or directory
 // fs.mkdirSync("CRUD");
 
-fs.writeFileSync("crud/bio.txt", "Hello")
+// fs.writeFileSync("crud/bio.txt", "Hello")
 
-fs.appendFileSync("crud/bio.txt", " my name is Naman Jeet Yadav")
+// fs.appendFileSync("crud/bio.txt", " my name is Naman Jeet Yadav")
 
-// const data = readFileSync("crud/bio.txt");
-// console.log(data)
+// Read file (and using utf8 to encode)
+// const data = fs.readFileSync("crud/bio.txt", "utf8");
+// console.log(data);
 
-fs.renameSync("crud/bio.txt", "mybio.txt");
+// Renaming file 
+// fs.renameSync("crud/bio.txt", "crud/mybio.txt");
+
+// Delete the file 
+fs.unlinkSync("crud/mybio.txt");
