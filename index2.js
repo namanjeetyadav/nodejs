@@ -22,4 +22,7 @@ const fs = require("fs");
 // fs.renameSync("crud/bio.txt", "crud/mybio.txt");
 
 // Delete the file 
-fs.unlinkSync("crud/mybio.txt");
+// fs.unlinkSync("crud/mybio.txt");
+
+// Delete the folder 
+// fs.rmdirSync("crud")
