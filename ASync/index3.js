@@ -18,3 +18,10 @@ fs.appendFile("read.txt", "Please add this data to file",
     console.log("Data added succesfully");
 });
 
+
+fs.writeFile("read.txt", "Add this data using writeFile",
+    (err)=>{
+        console.log("Data added using write ")
+    } 
+);
+
