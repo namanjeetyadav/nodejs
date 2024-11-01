@@ -20,7 +20,7 @@ fs.writeFile("read.txt", "Today is awesome",
 //     console.log("Data added succesfully");
 // });
 
-
+// To read existing file 
 fs.readFile("read.txt", "UTF-8",
     (err, data)=>{
         console.log(data)
