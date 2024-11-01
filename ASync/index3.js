@@ -13,15 +13,17 @@ fs.writeFile("read.txt", "Today is awesome",
 // Now we need to say what to do when fs.writeFile has completed
 // (even id it's nothing), and start checking for errors.
 
-fs.appendFile("read.txt", "Please add this data to file", 
-(err)=>{
-    console.log("Data added succesfully");
-});
+
+// Add data to existing file
+// fs.appendFile("read.txt", " Please add this data to file", 
+// (err)=>{
+//     console.log("Data added succesfully");
+// });
 
 
-fs.writeFile("read.txt", "Add this data using writeFile",
-    (err)=>{
-        console.log("Data added using write ")
+fs.readFile("read.txt", "UTF-8",
+    (err, data)=>{
+        console.log(data)
     } 
 );
 
