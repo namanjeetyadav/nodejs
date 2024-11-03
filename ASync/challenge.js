@@ -25,3 +25,6 @@ const fs = require("fs")
 //     console.log(data)
 // })
 
+fs.rename("./Bio/bio.txt", "./Bio/mybio.txt", (err)=>{
+    console.log("rename done");
+})
