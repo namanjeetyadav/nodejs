@@ -17,7 +17,7 @@ const fs = require("fs")
 //     console.log(err)
 // })
 
-// fs.appendFile("./Bio/bio.txt", "Adding more data using Async appendFile", (err)=>{
+// fs.appendFile("./Bio/bio.txt", "Adding more data using Async appendFile with harsh", (err)=>{
 //     console.log(err)
 // })
 
@@ -25,6 +25,16 @@ const fs = require("fs")
 //     console.log(data)
 // })
 
-fs.rename("./Bio/bio.txt", "./Bio/mybio.txt", (err)=>{
-    console.log("rename done");
-})
+// fs.rename("./Bio/bio.txt", "./Bio/mybio.txt", (err)=>{
+//     console.log("rename done");
+// })
+
+// To delete file 
+// fs.unlink("./Bio/mybio.txt", (err)=>{
+//   console.log("File deleted successfully")
+// })
+
+// To delete directory 
+// fs.rmdir("./Bio", ()=>{
+//     console.log("Directory delected succcessfully")
+// })
