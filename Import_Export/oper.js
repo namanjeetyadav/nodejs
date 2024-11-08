@@ -11,6 +11,9 @@ const multi = (c,d)=>{
 const div = (c,d)=>{
     return c / d
 }
+const rem = (c,d)=>{
+    return c % d
+}
 
 
 // module.exports.add1 = add;
@@ -18,4 +21,4 @@ const div = (c,d)=>{
 // module.exports.multi1 = multi;
 // 
 
-module.exports = {add, sub, multi, div}
+module.exports = {add, sub, multi, div, rem}
