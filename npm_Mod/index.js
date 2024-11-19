@@ -8,5 +8,7 @@ const result2 = validator.isStrongPassword("Naman#20")
 
 // console.log(res);
 console.log(result ? chalk.green.inverse(result) : chalk.red.inverse(result));
+console.log(result2 ? chalk.green(result2) : chalk.red(result2));
+
 
 
