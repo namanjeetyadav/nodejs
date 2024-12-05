@@ -12,10 +12,8 @@ const server = http.createServer((req, res) => {
    }
    else {
     res.writeHead(404, {"Content-type" : "text-html"});
-    res.end("<h1>404 Page Not Found</h1>")
+    res.end('<h1 style="color: Grey;"> 404 Page Not Found</h1>')
    }
-
-
 });
 
 server.listen(8000, "127.0.0.1", () => {
