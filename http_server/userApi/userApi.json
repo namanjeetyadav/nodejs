@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "name": "Rohit Sharma",
+      "designation": "Software Engineer",
+      "department": "IT",
+      "email": "rohit.sharma@example.com",
+      "phone": "9876543210",
+      "salary": 75000
+    },
+    {
+      "id": 2,
+      "name": "Meera Iyer",
+      "designation": "HR Manager",
+      "department": "Human Resources",
+      "email": "meera.iyer@example.com",
+      "phone": "9876543211",
+      "salary": 90000
+    },
+    {
+      "id": 3,
+      "name": "Amit Gupta",
+      "designation": "Accountant",
+      "department": "Finance",
+      "email": "amit.gupta@example.com",
+      "phone": "9876543212",
+      "salary": 60000
+    },
+    {
+      "id": 4,
+      "name": "Sneha Patil",
+      "designation": "Marketing Executive",
+      "department": "Marketing",
+      "email": "sneha.patil@example.com",
+      "phone": "9876543213",
+      "salary": 55000
+    },
+    {
+      "id": 5,
+      "name": "Vikram Reddy",
+      "designation": "Operations Manager",
+      "department": "Operations",
+      "email": "vikram.reddy@example.com",
+      "phone": "9876543214",
+      "salary": 80000
+    }
+  ]
+  
