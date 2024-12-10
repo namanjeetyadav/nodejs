@@ -12,11 +12,11 @@ const server = http.createServer((req, res) => {
         res.end("Welcome from CONTACT")
     }
     else if (req.url == "/userapi") {
-        fs.readFile(`${__dirname}/userApi/userApi.json`, "utf-8", (err, data)=>{
-            console.log(data)
+        fs.readFile(`${__dirname}/userApi/userApi.json`, "utf-8", (err, data) => {
+            console.log(data);
+            res.end(data);
 
         })
-        res.end("Hello from user API side")
     }
     else {
         res.writeHead(404, { "Content-type": "text-html" });
